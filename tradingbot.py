@@ -91,14 +91,14 @@ strategy = MLTrader(name='mlstrat', broker=broker,
                                  "cash_at_risk": .5})
 
 # backtest, comment this block for deployment
-strategy.backtest(
-    YahooDataBacktesting,
-    start_date,
-    end_date,
-    parameters={"symbol":"SPY", "cash_at_risk": .5}
-)
+# strategy.backtest(
+#     YahooDataBacktesting,
+#     start_date,
+#     end_date,
+#     parameters={"symbol":"SPY", "cash_at_risk": .5}
+# )
 
 # deployment
-# trader = Trader()
-# trader.add_strategy(strategy)
-# trader.run_all()
+trader = Trader()
+trader.add_strategy(strategy)
+trader.run_all()
