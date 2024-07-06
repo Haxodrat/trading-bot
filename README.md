@@ -1,7 +1,7 @@
 # trading-bot
 
 ### Description
-<p>A machine learning trading bot that uses PyTorch, Alpaca Trading API, lumibot to make predictions and profitable trades based on recent news grabbed by the news</p>
+<p>A machine learning trading bot that uses PyTorch, Alpaca Trading API, and lumibot to make predictions and profitable trades based on recent news grabbed by the alpaca news api.</p>
 
 ### Getting Started
 #### 1. Clone the repo.
