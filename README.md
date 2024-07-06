@@ -1,12 +1,12 @@
 # trading-bot
 
 ### Description
-<p>A machine learning trading bot that uses PyTorch, Alpaca Trading API, </p>
+<p>A machine learning trading bot that uses PyTorch, Alpaca Trading API, lumibot to make predictions and profitable trades based on recent news grabbed by the news</p>
 
 ### Getting Started
 #### 1. Clone the repo.
 ```bash
-git clone 
+git clone https://github.com/Haxodrat/trading-bot.git
 ```
 #### 2. Install the pytorch package/dependencies.
 ```bash
@@ -16,6 +16,7 @@ pip install install torch torchvision torchaudio
 ```bash
 pip install timedelta
 pip install alpaca-trade-api
+pip install lumibot
 ```
 #### 3. Run the model.
 ```bash
